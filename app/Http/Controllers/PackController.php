@@ -45,4 +45,8 @@ class PackController extends Controller
       $Easy->save();
       return redirect('/read_user');
    }
+
+
+
+
 }

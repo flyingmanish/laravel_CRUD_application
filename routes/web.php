@@ -19,4 +19,6 @@ Route::get('/read_user' , 'PackController@read');
 Route::get('/delete_user/{id}' , 'PackController@delete');
 Route::get('/edit_user/{id}' , 'PackController@edit');
 Route::post('/update_user/{id}' , 'PackController@update');
+Route::get('/customerIndex' , 'CustomerController@customerIndex');
+Route::post('/store_customer' , 'CustomerController@customerCreate');
 
