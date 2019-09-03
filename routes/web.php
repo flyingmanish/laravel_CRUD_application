@@ -21,4 +21,5 @@ Route::get('/edit_user/{id}' , 'PackController@edit');
 Route::post('/update_user/{id}' , 'PackController@update');
 Route::get('/customerIndex' , 'CustomerController@customerIndex');
 Route::post('/store_customer' , 'CustomerController@customerCreate');
-
+Route::get('/getCustomerDetails' , 'CustomerController@getCustomerDetails');
+Route::get('/readCustomerDetails' , 'CustomerController@readCustomerDetails');
